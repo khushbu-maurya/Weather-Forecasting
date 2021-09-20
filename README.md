@@ -40,5 +40,12 @@ To Visit App:
 
 `localhost:3000`
 
+## Working Demo
+
+![alt text](https://raw.githubusercontent.com/hetald1/Weather-Forecasting/main/public/images/WeatherHome.png?token=APASJ2MPRAXY7G3JTY56SPLBJB3LG)
+
+![alt text](https://raw.githubusercontent.com/hetald1/Weather-Forecasting/main/public/images/WeatherDataDisplay.png?token=APASJ2OQM5CK6DR47ZNC2OTBJB3NC)
+
+![alt text](https://raw.githubusercontent.com/hetald1/Weather-Forecasting/main/public/images/WeatherDemo.gif?token=APASJ2MNQPIF7MCZ62HGKDDBJB3OM)
 
 
