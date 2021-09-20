@@ -1,6 +1,6 @@
 
 # Weather-Forecasting
- Weather-Forecasting application built using react.js **version 17.0.2**
+ Weather-Forecasting application built using **react.js** ,**typescript**, **functional components**, **redux**,**highchart**,**weather api** etc...
 
 ## About  Weather-Forecasting
 
