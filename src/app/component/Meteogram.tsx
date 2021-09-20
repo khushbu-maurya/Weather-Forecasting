@@ -234,7 +234,10 @@ const Meteogram = (props: any) => {
                     opposite: true,
                     showLastLabel: false
                 }],
-                legend: { enabled: false },
+                legend: {
+                    enabled: true,
+                    y: 25
+                },
                 plotOptions: {
                     series: { pointPlacement: 'between' }
                 },
