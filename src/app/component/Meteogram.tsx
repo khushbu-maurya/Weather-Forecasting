@@ -18,8 +18,8 @@ const Meteogram = (props: any) => {
 
     const formatWeatherData = () => {
         const tempPropsData = props.weather.weatherData;
-        let tempWatherData: any = {};
-        tempWatherData['cityName'] = tempPropsData.city.name + ',' + tempPropsData.city.country + '';
+        let tempWeatherData: any = {};
+        tempWeatherData['cityName'] = tempPropsData.city.name + ',' + tempPropsData.city.country + '';
 
         let tempTemperature: any = [];
         let tempSymbols: any = [];
@@ -45,7 +45,7 @@ const Meteogram = (props: any) => {
             if (index === 0) {
                 var fromD = new Date(tempPropsData.list[index + 1].dt_txt);
                 var from = fromD.getTime();
-                tempWatherData.resolution = n - from;
+                tempWeatherData.resolution = n - from;
             }
 
             tempTemperature.push({
@@ -117,12 +117,12 @@ const Meteogram = (props: any) => {
         setHighSnowValue(highSnowV);
         setHighSnowDate(highSnow.toString());
 
-        tempWatherData['symbols'] = tempSymbols;
-        tempWatherData['temperature'] = tempTemperature;
-        tempWatherData['pressures'] = tempPressures;
-        tempWatherData['winds'] = tempWinds;
+        tempWeatherData['symbols'] = tempSymbols;
+        tempWeatherData['temperature'] = tempTemperature;
+        tempWeatherData['pressures'] = tempPressures;
+        tempWeatherData['winds'] = tempWinds;
 
-        return tempWatherData;
+        return tempWeatherData;
     }
 
     useEffect(() => {
